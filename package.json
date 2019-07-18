@@ -1,0 +1,36 @@
+{
+  "name": "sketched",
+  "version": "1.0.0",
+  "description": "Parse design tokens from *.sketch files",
+  "main": "lib/parse.js",
+  "module": "lib/parse.js",
+  "bin": "bin/sketched.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crysp/sketched.git"
+  },
+  "keywords": [
+    "sketch",
+    "nodejs",
+    "design",
+    "token",
+    "parse"
+  ],
+  "files": [
+    "bin/*",
+    "lib/*"
+  ],
+  "author": "Crysp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crysp/sketched/issues"
+  },
+  "homepage": "https://github.com/Crysp/sketched#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "jszip": "^3.2.2"
+  }
+}
